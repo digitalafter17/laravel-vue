@@ -146,6 +146,17 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 
 
@@ -194,7 +205,7 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
                 if (response.data.must_verify_email) {
                   _this.$router.push("/verify/user/".concat(response.data.id));
                 } else {
-                  message = "You account has been successfully create. Please Log in.";
+                  message = "Your account has been created successfully. Please Log in.";
                   toast = Vue.toasted.show(message, {
                     theme: "toasted-primary",
                     position: "top-right",

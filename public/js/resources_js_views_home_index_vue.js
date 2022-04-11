@@ -60,7 +60,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
 
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
@@ -90,7 +89,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n.home-title {\n  font-size: 4rem;\n}\n.masthead {\n  background: linear-gradient(0deg, #4e73df 0%, #36b9cc 100%);\n  padding-top: 5rem;\n  padding-bottom: 5rem;\n}\n.min-vh-50 {\n    min-height: 50vh !important;\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n.home-title {\n    font-size: 4rem;\n}\n.masthead {\n    background: linear-gradient(0deg, #4e73df 0%, #36b9cc 100%);\n    padding-top: 5rem;\n    padding-bottom: 5rem;\n}\n.min-vh-50 {\n    min-height: 50vh !important;\n}\n\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -666,7 +665,7 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("footer", { staticClass: "footer footer-dark bg-dark" }, [
       _c("div", { staticClass: "container text-center py-5" }, [
-        _c("p", [_vm._v("\n      Laravel and Vue Admin Dashboard @\n    ")])
+        _c("p", [_vm._v("\n      CRM Actionpay\n    ")])
       ])
     ])
   }
@@ -709,7 +708,7 @@ var render = function() {
               "router-link",
               { staticClass: "btn btn-primary", attrs: { to: "/admin" } },
               [
-                _vm._v("\n        Go to dashboard "),
+                _vm._v("\n                Go to dashboard "),
                 _c("i", { staticClass: "fas fa-chevron-right" })
               ]
             )
@@ -731,9 +730,7 @@ var staticRenderFns = [
     return _c("div", { staticClass: "masthead" }, [
       _c("div", { staticClass: "text-center text-white" }, [
         _c("h1", { staticClass: "py-5 home-title" }, [
-          _vm._v(
-            "\n        Welcome to Laravel 8 & Vue.js Admin Dashboard\n      "
-          )
+          _vm._v("\n                Welcome to CRM Actionpay\n            ")
         ])
       ])
     ])

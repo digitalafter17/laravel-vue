@@ -86,44 +86,6 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 
 
 
@@ -442,46 +404,14 @@ var render = function() {
                               },
                               [
                                 _vm._v(
-                                  "\n                      Login\n                    "
+                                  "\n                                                        Login\n                                                    "
                                 )
                               ]
                             )
                           ]
                         ),
                         _vm._v(" "),
-                        _c("hr"),
-                        _vm._v(" "),
-                        _c(
-                          "div",
-                          { staticClass: "text-center" },
-                          [
-                            _c(
-                              "router-link",
-                              {
-                                staticClass: "small",
-                                attrs: { to: "/forgot-password" }
-                              },
-                              [_vm._v("Forgot Password?")]
-                            )
-                          ],
-                          1
-                        ),
-                        _vm._v(" "),
-                        _c(
-                          "div",
-                          { staticClass: "text-center" },
-                          [
-                            _c(
-                              "router-link",
-                              {
-                                staticClass: "small",
-                                attrs: { to: "/register" }
-                              },
-                              [_vm._v("Create an Account!")]
-                            )
-                          ],
-                          1
-                        )
+                        _c("hr")
                       ])
                     ])
                   ])
@@ -540,7 +470,11 @@ var staticRenderFns = [
             staticClass: "custom-control-label",
             attrs: { for: "customCheck" }
           },
-          [_vm._v("Remember Me")]
+          [
+            _vm._v(
+              "Remember\n                                                                Me"
+            )
+          ]
         )
       ])
     ])

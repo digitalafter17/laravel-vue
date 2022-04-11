@@ -108,22 +108,6 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 
 
 
@@ -555,7 +539,7 @@ var staticRenderFns = [
       _vm._v(" "),
       _c("p", { staticClass: "mb-4" }, [
         _vm._v(
-          "\n                        We get it, stuff happens. Just enter your email\n                        address below and we'll send you a link to reset your\n                        password!\n                      "
+          "\n                        We get it, stuff happens. Just enter your email address below and we'll send you a link to reset your password!\n                      "
         )
       ])
     ])
@@ -566,7 +550,9 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("span", { staticClass: "h4" }, [
       _c("i", { staticClass: "far fa-check-circle text-success" }),
-      _vm._v(" Check\n                      your email!\n                    ")
+      _vm._v(
+        " Check\n                        your email!\n                      "
+      )
     ])
   }
 ]
