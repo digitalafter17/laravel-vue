@@ -80,7 +80,9 @@ var staticRenderFns = [
     return _c("div", { staticClass: "text-center" }, [
       _c("p", { staticClass: "lead text-gray-800 mb-5" }, [
         _vm._v("Halaman Broadcast Email")
-      ])
+      ]),
+      _vm._v(" "),
+      _c("button", { staticClass: "btn-btn" }, [_vm._v("New Broadcast")])
     ])
   }
 ]
