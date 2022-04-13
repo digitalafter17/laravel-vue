@@ -68,25 +68,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
@@ -16195,7 +16176,25 @@ var staticRenderFns = [
                   ])
                 ]),
                 _vm._v(" "),
-                _c("tbody")
+                _c("tbody", [
+                  _c("tr", [
+                    _c("td", [_vm._v("32464")]),
+                    _vm._v(" "),
+                    _c("td", [_vm._v("Fitri")]),
+                    _vm._v(" "),
+                    _c("td", [_vm._v("6285971774195")]),
+                    _vm._v(" "),
+                    _c("td", [_vm._v("fenamelindasari@gmail.com")]),
+                    _vm._v(" "),
+                    _c("td", [_vm._v("6285971774195")]),
+                    _vm._v(" "),
+                    _c("td", [_vm._v("Y")]),
+                    _vm._v(" "),
+                    _c("td", [_vm._v("Y")]),
+                    _vm._v(" "),
+                    _c("td", [_vm._v("Y")])
+                  ])
+                ])
               ]
             )
           ])

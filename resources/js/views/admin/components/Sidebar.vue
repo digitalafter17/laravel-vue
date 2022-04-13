@@ -59,7 +59,7 @@
                 <div class="bg-white py-2 collapse-inner rounded">
                     <h6 class="collapse-header">Custom Broadcast</h6>
                     <router-link class="collapse-item" to="/admin/history">List History</router-link>
-                    <router-link class="collapse-item" to="/admin/pages/page-not-found">New Broadcast</router-link>
+                    <router-link class="collapse-item" to="/admin/broadcast">New Broadcast</router-link>
                 </div>
             </div>
         </li>

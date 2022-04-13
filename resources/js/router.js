@@ -148,6 +148,15 @@
                     }
                 },
                 {
+                    path: "/admin/broadcast",
+                    name: "broadcast",
+                    component: () => import("./views/admin/broadcast.vue"),
+                    meta: {
+                        requiresAuth: true,
+                        layout: AdminLayout
+                    }
+                },
+                {
                     path: "/admin/history",
                     name: "history",
                     component: () => import("./views/admin/history.vue"),
@@ -155,7 +164,7 @@
                         requiresAuth: true,
                         layout: AdminLayout
                     }
-                }
+                },
             ]
         });
 

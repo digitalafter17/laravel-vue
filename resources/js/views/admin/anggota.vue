@@ -34,35 +34,16 @@
                             </tr>
                         </tfoot>
                         <tbody>
-                            
-                        <!-- <script type="text/javascript">
-                                $(function () {
-                                
-                                var table = $('.actionpay-datatable').DataTable({
-                                    processing: true,
-                                    serverSide: true,
-                                    ajax: "{{ route('user.index') }}",
-                                    columns: [
-                                        {data: 'DT_RowIndex', name: 'DT_RowIndex'},
-                                        {data: 'id', name: 'id'},
-                                        {data: 'full_name', name: 'ful_name'},
-                                        {data: 'username', name: 'username'},
-                                        {data: 'email', name: 'email'},
-                                        {data: 'phone_number', name: 'phone_number'},
-                                        {data: 'identity_no', name: 'identity_no'},
-                                        {data: 'address', name: 'address'},
-                                        {data: 'mother_name', name: 'mother_name'},
-                                        {
-                                            data: 'action', 
-                                            name: 'action', 
-                                            orderable: true, 
-                                            searchable: true
-                                        },
-                                    ]
-                                });
-                                
-                                });
-                        </script> -->
+                            <tr>
+                                <td>32464</td>
+                                <td>Fitri</td>
+                                <td>6285971774195</td>
+                                <td>fenamelindasari@gmail.com</td>
+                                <td>6285971774195</td>
+                                <td>Y</td>
+                                <td>Y</td>
+                                <td>Y</td>
+                            </tr>
                         </tbody>
                     </table>
                 </div>
