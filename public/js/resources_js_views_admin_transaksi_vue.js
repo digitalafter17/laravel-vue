@@ -70,6 +70,16 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
@@ -16114,121 +16124,117 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", [
-    _c("div", { staticClass: "card shadow mb-4" }, [
-      _vm._m(0),
-      _vm._v(" "),
-      _c("div", { staticClass: "card-body" }, [
-        _c("div", { staticClass: "table-responsive" }, [
-          _c(
-            "table",
-            {
-              staticClass: "table table-bordered",
-              attrs: { id: "dataTable", width: "100%", cellspacing: "0" }
-            },
-            [
-              _vm._m(1),
-              _vm._v(" "),
-              _vm._m(2),
-              _vm._v(" "),
-              _c(
-                "tbody",
-                _vm._l(_vm.posts, function(post, index) {
-                  return _c("tr", { key: post.id }, [
-                    _c("td", [_vm._v(_vm._s(post.title))]),
-                    _vm._v(" "),
-                    _c("td", [_vm._v(_vm._s(post.content))]),
-                    _vm._v(" "),
-                    _c(
-                      "td",
-                      { staticClass: "text-center" },
-                      [
-                        _c(
-                          "router-link",
-                          {
-                            staticClass: "btn btn-sm btn-primary",
-                            attrs: {
-                              to: { name: "edit", params: { id: post.id } }
-                            }
-                          },
-                          [_vm._v("EDIT")]
-                        ),
-                        _vm._v(" "),
-                        _c(
-                          "button",
-                          {
-                            staticClass: "btn btn-sm btn-danger",
-                            on: {
-                              click: function($event) {
-                                $event.preventDefault()
-                                return _vm.PostDelete(post.id, index)
-                              }
-                            }
-                          },
-                          [_vm._v("HAPUS")]
-                        )
-                      ],
-                      1
-                    )
-                  ])
-                }),
-                0
-              )
-            ]
-          )
-        ])
-      ])
-    ])
-  ])
+  return _vm._m(0)
 }
 var staticRenderFns = [
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "card-header py-3" }, [
-      _c("h6", { staticClass: "m-0 font-weight-bold text-primary" }, [
-        _vm._v("Data Tables Transaksi")
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("thead", [
-      _c("tr", [
-        _c("th", [_vm._v("Name")]),
+    return _c("div", [
+      _c("div", { staticClass: "card shadow mb-4" }, [
+        _c("div", { staticClass: "card-header py-3" }, [
+          _c("h6", { staticClass: "m-0 font-weight-bold text-primary" }, [
+            _vm._v("Data Tables Transaksi")
+          ])
+        ]),
         _vm._v(" "),
-        _c("th", [_vm._v("Position")]),
-        _vm._v(" "),
-        _c("th", [_vm._v("Office")]),
-        _vm._v(" "),
-        _c("th", [_vm._v("Age")]),
-        _vm._v(" "),
-        _c("th", [_vm._v("Start date")]),
-        _vm._v(" "),
-        _c("th", [_vm._v("Salary")])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("tfoot", [
-      _c("tr", [
-        _c("th", [_vm._v("Name")]),
-        _vm._v(" "),
-        _c("th", [_vm._v("Position")]),
-        _vm._v(" "),
-        _c("th", [_vm._v("Office")]),
-        _vm._v(" "),
-        _c("th", [_vm._v("Age")]),
-        _vm._v(" "),
-        _c("th", [_vm._v("Start date")]),
-        _vm._v(" "),
-        _c("th", [_vm._v("Salary")])
+        _c("div", { staticClass: "card-body" }, [
+          _c("div", { staticClass: "table-responsive" }, [
+            _c(
+              "table",
+              {
+                staticClass: "table table-bordered",
+                attrs: { id: "dataTable", width: "100%", cellspacing: "0" }
+              },
+              [
+                _c("thead", [
+                  _c("tr", [
+                    _c("th", [_vm._v("id")]),
+                    _vm._v(" "),
+                    _c("th", [_vm._v("transaction_time")]),
+                    _vm._v(" "),
+                    _c("th", [_vm._v("amount")]),
+                    _vm._v(" "),
+                    _c("th", [_vm._v("fee")]),
+                    _vm._v(" "),
+                    _c("th", [_vm._v("account_number")]),
+                    _vm._v(" "),
+                    _c("th", [_vm._v("no_resi")]),
+                    _vm._v(" "),
+                    _c("th", [_vm._v("user_uid")]),
+                    _vm._v(" "),
+                    _c("th", [_vm._v("card_no")]),
+                    _vm._v(" "),
+                    _c("th", [_vm._v("batch_no")]),
+                    _vm._v(" "),
+                    _c("th", [_vm._v("appr_code")]),
+                    _vm._v(" "),
+                    _c("th", [_vm._v("cust_name")]),
+                    _vm._v(" "),
+                    _c("th", [_vm._v("receipt")])
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("tfoot", [
+                  _c("tr", [
+                    _c("th", [_vm._v("id")]),
+                    _vm._v(" "),
+                    _c("th", [_vm._v("transaction_time")]),
+                    _vm._v(" "),
+                    _c("th", [_vm._v("amount")]),
+                    _vm._v(" "),
+                    _c("th", [_vm._v("fee")]),
+                    _vm._v(" "),
+                    _c("th", [_vm._v("account_number")]),
+                    _vm._v(" "),
+                    _c("th", [_vm._v("no_resi")]),
+                    _vm._v(" "),
+                    _c("th", [_vm._v("user_uid")]),
+                    _vm._v(" "),
+                    _c("th", [_vm._v("card_no")]),
+                    _vm._v(" "),
+                    _c("th", [_vm._v("batch_no")]),
+                    _vm._v(" "),
+                    _c("th", [_vm._v("appr_code")]),
+                    _vm._v(" "),
+                    _c("th", [_vm._v("cust_name")]),
+                    _vm._v(" "),
+                    _c("th", [_vm._v("receipt")])
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("tbody", [
+                  _c("tr", [
+                    _c("td", [_vm._v("1080")]),
+                    _vm._v(" "),
+                    _c("td", [_vm._v("2021-01-20 04:00:27")]),
+                    _vm._v(" "),
+                    _c("td", [_vm._v("50000")]),
+                    _vm._v(" "),
+                    _c("td", [_vm._v("2500")]),
+                    _vm._v(" "),
+                    _c("td", [_vm._v("GV24778851611114861")]),
+                    _vm._v(" "),
+                    _c("td", [_vm._v("444654638")]),
+                    _vm._v(" "),
+                    _c("td", [_vm._v("339")]),
+                    _vm._v(" "),
+                    _c("td", [_vm._v("34023253148")]),
+                    _vm._v(" "),
+                    _c("td", [_vm._v("PLNPRAH50")]),
+                    _vm._v(" "),
+                    _c("td", [_vm._v("BLP")]),
+                    _vm._v(" "),
+                    _c("td", [_vm._v("DUMMY PLNPRABAYAR")]),
+                    _vm._v(" "),
+                    _c("td", [_vm._v("PIN Yang Anda Masukkan Salah.")])
+                  ])
+                ])
+              ]
+            )
+          ])
+        ])
       ])
     ])
   }

@@ -42,23 +42,6 @@
 
         </li>
 
-        <!-- Nav Item - Utilities Collapse Menu -->
-        <!-- <li class="nav-item">
-            <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities"
-                aria-expanded="true" aria-controls="collapseUtilities">
-                <i class="fas fa-fw fa-wrench"></i>
-                <span>Broadcast Email</span>
-            </a>
-            <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities"
-                data-parent="#accordionSidebar">
-                <div class="bg-white py-2 collapse-inner rounded">
-                    <h6 class="collapse-header">Custom Broadcast</h6>
-                    <router-link class="collapse-item" to="/admin/pages/page-not-found">List History</router-link>
-                    <router-link class="collapse-item" to="/admin/pages/page-not-found">New Broadcast</router-link>
-                </div>
-            </div>
-        </li> -->
-
         <!-- Divider -->
         <hr class="sidebar-divider" />
 
@@ -80,21 +63,6 @@
                 </div>
             </div>
         </li>
-
-        <!-- Nav Item - Charts -->
-        <!-- <li class="nav-item">
-            <router-link class="nav-link" to="/admin/charts">
-                <i class="fas fa-fw fa-chart-area"></i>
-                <span>Charts</span></router-link>
-        </li> -->
-
-        <!-- Nav Item - Tables -->
-        <!-- <li class="nav-item">
-            <router-link class="nav-link" to="/admin/tables">
-                <i class="fas fa-fw fa-table"></i>
-                <span>Tables</span></router-link>
-        </li> -->
-
         <!-- Divider -->
         <hr class="sidebar-divider d-none d-md-block" />
 

@@ -11,41 +11,51 @@
                     <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                         <thead>
                             <tr>
-                                <th>Name</th>
-                                <th>Position</th>
-                                <th>Office</th>
-                                <th>Age</th>
-                                <th>Start date</th>
-                                <th>Salary</th>
+                                <th>id</th>
+                                <th>transaction_time</th>
+                                <th>amount</th>
+                                <th>fee</th>
+                                <th>account_number</th>
+                                <th>no_resi</th>
+                                <th>user_uid</th>
+                                <th>card_no</th>
+                                <th>batch_no</th>
+                                <th>appr_code</th>
+                                <th>cust_name</th>
+                                <th>receipt</th>
                             </tr>
                         </thead>
                         <tfoot>
                             <tr>
-                                <th>Name</th>
-                                <th>Position</th>
-                                <th>Office</th>
-                                <th>Age</th>
-                                <th>Start date</th>
-                                <th>Salary</th>
+                                <th>id</th>
+                                <th>transaction_time</th>
+                                <th>amount</th>
+                                <th>fee</th>
+                                <th>account_number</th>
+                                <th>no_resi</th>
+                                <th>user_uid</th>
+                                <th>card_no</th>
+                                <th>batch_no</th>
+                                <th>appr_code</th>
+                                <th>cust_name</th>
+                                <th>receipt</th>
                             </tr>
                         </tfoot>
                         <tbody>
-                            <tr v-for="(post, index) in posts" :key="post.id">
-                                <td>{{ post.title }}</td>
-                                <td>{{ post.content }}</td>
-                                <td class="text-center">
-                                    <router-link :to="{name: 'edit', params: { id: post.id }}" class="btn btn-sm btn-primary">EDIT</router-link>
-                                    <button @click.prevent="PostDelete(post.id, index)" class="btn btn-sm btn-danger">HAPUS</button>
-                                </td>
+                            <tr>
+                                <td>1080</td>
+                                <td>2021-01-20 04:00:27</td>
+                                <td>50000</td>
+                                <td>2500</td>
+                                <td>GV24778851611114861</td>
+                                <td>444654638</td>
+                                <td>339</td>
+                                <td>34023253148</td>
+                                <td>PLNPRAH50</td>
+                                <td>BLP</td>
+                                <td>DUMMY PLNPRABAYAR</td>
+                                <td>PIN Yang Anda Masukkan Salah.</td>
                             </tr>
-                            <!-- <tr>
-                                                <td>Donna Snider</td>
-                                                <td>Customer Support</td>
-                                                <td>New York</td>
-                                                <td>27</td>
-                                                <td>2011/01/25</td>
-                                                <td>$112,000</td>
-                                            </tr> -->
                         </tbody>
                     </table>
                 </div>

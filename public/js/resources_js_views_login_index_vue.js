@@ -79,13 +79,6 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
 
 
 
@@ -404,7 +397,7 @@ var render = function() {
                               },
                               [
                                 _vm._v(
-                                  "\n                                                        Login\n                                                    "
+                                  "\n                                                                    Login\n                                                                "
                                 )
                               ]
                             )
@@ -472,7 +465,7 @@ var staticRenderFns = [
           },
           [
             _vm._v(
-              "Remember\n                                                                Me"
+              "Remember\n                                                                            Me"
             )
           ]
         )

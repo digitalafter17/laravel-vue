@@ -73,6 +73,20 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
@@ -16143,33 +16157,41 @@ var staticRenderFns = [
               [
                 _c("thead", [
                   _c("tr", [
-                    _c("th", [_vm._v("Name")]),
+                    _c("th", [_vm._v("User ID")]),
                     _vm._v(" "),
-                    _c("th", [_vm._v("Position")]),
+                    _c("th", [_vm._v("Full Name")]),
                     _vm._v(" "),
-                    _c("th", [_vm._v("Office")]),
+                    _c("th", [_vm._v("User Name")]),
                     _vm._v(" "),
-                    _c("th", [_vm._v("Age")]),
+                    _c("th", [_vm._v("Email")]),
                     _vm._v(" "),
-                    _c("th", [_vm._v("Start date")]),
+                    _c("th", [_vm._v("Handphone")]),
                     _vm._v(" "),
-                    _c("th", [_vm._v("Salary")])
+                    _c("th", [_vm._v("No Identitas")]),
+                    _vm._v(" "),
+                    _c("th", [_vm._v("Alamat")]),
+                    _vm._v(" "),
+                    _c("th", [_vm._v("Nama Ibu")])
                   ])
                 ]),
                 _vm._v(" "),
                 _c("tfoot", [
                   _c("tr", [
-                    _c("th", [_vm._v("Name")]),
+                    _c("th", [_vm._v("User ID")]),
                     _vm._v(" "),
-                    _c("th", [_vm._v("Position")]),
+                    _c("th", [_vm._v("Full Name")]),
                     _vm._v(" "),
-                    _c("th", [_vm._v("Office")]),
+                    _c("th", [_vm._v("User Name")]),
                     _vm._v(" "),
-                    _c("th", [_vm._v("Age")]),
+                    _c("th", [_vm._v("Email")]),
                     _vm._v(" "),
-                    _c("th", [_vm._v("Start date")]),
+                    _c("th", [_vm._v("Handphone")]),
                     _vm._v(" "),
-                    _c("th", [_vm._v("Salary")])
+                    _c("th", [_vm._v("No Identitas")]),
+                    _vm._v(" "),
+                    _c("th", [_vm._v("Alamat")]),
+                    _vm._v(" "),
+                    _c("th", [_vm._v("Nama Ibu")])
                   ])
                 ]),
                 _vm._v(" "),

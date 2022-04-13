@@ -31,17 +31,6 @@
                         </tfoot>
                         <tbody>
 
-                            <tr v-for="(post, index) in posts" :key="post.id">
-                                <td>{{ post.title }}</td>
-                                <td>{{ post.content }}</td>
-                                <td class="text-center">
-                                    <router-link :to="{name: 'edit', params: { id: post.id }}"
-                                        class="btn btn-sm btn-primary">EDIT</router-link>
-                                    <button @click.prevent="PostDelete(post.id, index)"
-                                        class="btn btn-sm btn-danger">HAPUS</button>
-                                </td>
-                            </tr>
-
                             <tr>
                                 <td>Donna</td>
                                 <td>Customer Support</td>

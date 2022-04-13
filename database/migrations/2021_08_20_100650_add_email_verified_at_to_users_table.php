@@ -30,3 +30,9 @@ class AddEmailVerifiedAtToUsersTable extends Migration
         });
     }
 }
+
+
+// 2014_10_12
+// 2014_10_12
+// 2019_08_19
+// 2021_08_20
