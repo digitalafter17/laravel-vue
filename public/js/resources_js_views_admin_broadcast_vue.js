@@ -30,7 +30,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
 
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
@@ -16091,8 +16090,6 @@ var staticRenderFns = [
         ]),
         _vm._v(" "),
         _c("div", { staticClass: "card-body" }, [
-          _c("span", [_vm._v("Inputan seperti dibawah")]),
-          _vm._v(" "),
           _c("ul", [_vm._v("id")]),
           _vm._v(" "),
           _c("ul", [_vm._v("nama")]),
