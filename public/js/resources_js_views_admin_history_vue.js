@@ -62,8 +62,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
 
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
@@ -16134,49 +16132,49 @@ var staticRenderFns = [
               [
                 _c("thead", [
                   _c("tr", [
-                    _c("th", [_vm._v("Name")]),
+                    _c("th", [_vm._v("No")]),
                     _vm._v(" "),
-                    _c("th", [_vm._v("Position")]),
+                    _c("th", [_vm._v("User ID")]),
                     _vm._v(" "),
-                    _c("th", [_vm._v("Office")]),
+                    _c("th", [_vm._v("User Name")]),
                     _vm._v(" "),
-                    _c("th", [_vm._v("Age")]),
+                    _c("th", [_vm._v("Full Name")]),
                     _vm._v(" "),
-                    _c("th", [_vm._v("Start date")]),
+                    _c("th", [_vm._v("Email")]),
                     _vm._v(" "),
-                    _c("th", [_vm._v("Salary")])
+                    _c("th", [_vm._v("Pesan")])
                   ])
                 ]),
                 _vm._v(" "),
                 _c("tfoot", [
                   _c("tr", [
-                    _c("th", [_vm._v("Name")]),
+                    _c("th", [_vm._v("No")]),
                     _vm._v(" "),
-                    _c("th", [_vm._v("Position")]),
+                    _c("th", [_vm._v("User ID")]),
                     _vm._v(" "),
-                    _c("th", [_vm._v("Office")]),
+                    _c("th", [_vm._v("User Name")]),
                     _vm._v(" "),
-                    _c("th", [_vm._v("Age")]),
+                    _c("th", [_vm._v("Full Name")]),
                     _vm._v(" "),
-                    _c("th", [_vm._v("Start date")]),
+                    _c("th", [_vm._v("Email")]),
                     _vm._v(" "),
-                    _c("th", [_vm._v("Salary")])
+                    _c("th", [_vm._v("Pesan")])
                   ])
                 ]),
                 _vm._v(" "),
                 _c("tbody", [
                   _c("tr", [
-                    _c("td", [_vm._v("Donna")]),
+                    _c("td", [_vm._v("1")]),
                     _vm._v(" "),
-                    _c("td", [_vm._v("Customer Support")]),
+                    _c("td", [_vm._v("001")]),
                     _vm._v(" "),
-                    _c("td", [_vm._v("Jakarta")]),
+                    _c("td", [_vm._v("admin")]),
                     _vm._v(" "),
-                    _c("td", [_vm._v("27")]),
+                    _c("td", [_vm._v("administrator")]),
                     _vm._v(" "),
-                    _c("td", [_vm._v("2022/04/11")]),
+                    _c("td", [_vm._v("fenamelindasari@gmail.com")]),
                     _vm._v(" "),
-                    _c("td", [_vm._v("$112,000")])
+                    _c("td", [_vm._v("Ini Pesan Broadcast")])
                   ])
                 ])
               ]

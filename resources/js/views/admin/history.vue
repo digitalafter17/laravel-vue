@@ -11,35 +11,33 @@
                     <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                         <thead>
                             <tr>
-                                <th>Name</th>
-                                <th>Position</th>
-                                <th>Office</th>
-                                <th>Age</th>
-                                <th>Start date</th>
-                                <th>Salary</th>
+                                <th>No</th>
+                                <th>User ID</th>
+                                <th>User Name</th>
+                                <th>Full Name</th>
+                                <th>Email</th>
+                                <th>Pesan</th>
                             </tr>
                         </thead>
                         <tfoot>
                             <tr>
-                                <th>Name</th>
-                                <th>Position</th>
-                                <th>Office</th>
-                                <th>Age</th>
-                                <th>Start date</th>
-                                <th>Salary</th>
+                                <th>No</th>
+                                <th>User ID</th>
+                                <th>User Name</th>
+                                <th>Full Name</th>
+                                <th>Email</th>
+                                <th>Pesan</th>
                             </tr>
                         </tfoot>
                         <tbody>
-
                             <tr>
-                                <td>Donna</td>
-                                <td>Customer Support</td>
-                                <td>Jakarta</td>
-                                <td>27</td>
-                                <td>2022/04/11</td>
-                                <td>$112,000</td>
+                                <td>1</td>
+                                <td>001</td>
+                                <td>admin</td>
+                                <td>administrator</td>
+                                <td>fenamelindasari@gmail.com</td>
+                                <td>Ini Pesan Broadcast</td>
                             </tr>
-
                         </tbody>
                     </table>
                 </div>
