@@ -4,7 +4,10 @@
         <div class="masthead">
             <div class="text-center text-white">
                 <h1 class="py-5 home-title">
-                    Welcome to CRM Actionpay
+                    WELCOME TO CRM ACTIONPAY
+                </h1>
+                <h1 class="py-5 home-title">
+                    PT. ASIA PELANGI REMITEN
                 </h1>
             </div>
         </div>
