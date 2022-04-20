@@ -10,6 +10,12 @@
           <ul>email</ul>
           <ul>pesan</ul>
         </div>
+        
+        <div class="content wrap mb-4">
+          <div class="card-content">
+            
+          </div>
+        </div>
       </div>
     </div>
   </template>
