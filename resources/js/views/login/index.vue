@@ -9,8 +9,9 @@
                     <div class="alert alert-dismissible fade show mt-5" v-bind:class="verificationAlertClasses" role="alert">
                         <div>{{ verificationMessage }}</div>
                         <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                                                    <span aria-hidden="true">&times;</span>
-                                                </button></div>
+                        <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
                 </div>
             </div>
             <div class="row justify-content-center">
@@ -39,9 +40,7 @@
                                                                                 Me</label>
                                                 </div>
                                             </div>
-                                            <button type="submit" class="btn btn-primary btn-user btn-block">
-                                                                        Login
-                                                                    </button>
+                                            <button type="submit" class="btn btn-primary btn-user btn-block">Login</button>
                                         </form>
                                         <hr />
                                     </div>
