@@ -13,8 +13,10 @@
         </div>
         <div class="container">
             <div class="text-center py-5 min-vh-50">
-                <router-link to="/admin" class="btn btn-primary">
-                    Go to dashboard <i class="fas fa-chevron-right"></i></router-link>
+                <router-link to="/admin" class="btn btn-primary">Go to dashboard<i class="fas fa-chevron-right"></i></router-link>
+            </div>
+            <div class="btn-center py-5 min-vh-50">
+                <h1>logo</h1>
             </div>
         </div>
         <Footer />
