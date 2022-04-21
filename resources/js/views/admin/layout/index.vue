@@ -43,9 +43,9 @@ import Topbar from "../components/Topbar";
 import Sidebar from "../components/Sidebar";
 
 import Broadcast from "../components/Broadcast";
-import Anggota from "../componen/Anggota";
-import Transaksi from "..componen/Transaksi";
-import History from "../componen/History";
+import Anggota from "../components/Anggota";
+import History from "../components/History";
+import Transaksi form "../components/Transaksi";
 
 export default {
   name: "AdminLayout",
