@@ -39,9 +39,9 @@
                                 <td>namedomain</td>
                                 <td>namedomain@gmail.com</td>
                                 <td>0000000000</td>
-                                <td>Y</td>
-                                <td>Y</td>
-                                <td>Y</td>
+                                <td>1234</td>
+                                <td>Yyyyy</td>
+                                <td>Yzyz</td>
                             </tr>
                         </tbody>
                     </table>
