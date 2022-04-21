@@ -33,7 +33,7 @@
                                 <td>001</td>
                                 <td>admin</td>
                                 <td>administrator</td>
-                                <td>fenamelindasari@gmail.com</td>
+                                <td>namedomain@gmail.com</td>
                                 <td>Ini Pesan Broadcast</td>
                             </tr>
                         </tbody>
@@ -47,12 +47,10 @@
 <script>
     import "datatables.net-dt/js/dataTables.dataTables"
     import "datatables.net-dt/css/jquery.dataTables.min.css"
-
     export default {
         name: 'History',
         mounted() {
             $('#dataTable').DataTable();
         }
     }
-
 </script>
