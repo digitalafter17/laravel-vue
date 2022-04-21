@@ -17106,15 +17106,18 @@ a:focus {
   background-position: center;
   background-size: cover;
 }
-
 .bg-register-image {
   background: url("images/app.png");
   background-position: center;
   background-size: cover;
 }
-
 .bg-password-image {
   background: url("images/app.png");
+  background-position: center;
+  background-size: cover;
+}
+.bg.profile-image {
+  background: url ("images/app.png");
   background-position: center;
   background-size: cover;
 }
@@ -17131,6 +17134,18 @@ form.user .btn-user {
   font-size: 0.8rem;
   border-radius: 10rem;
   padding: 0.75rem 1rem;
+}
+
+.btn-notify {
+  color: #fff;
+  border-shadow: 5px;
+  margin-top: 2px;
+}
+.btn-notify:hover {
+  color: #fff;
+  border-shadow: 5px;
+  border-color:#e6e6e6;
+  margin-top: 2px;
 }
 
 .btn-google {
