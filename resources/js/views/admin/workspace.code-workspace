@@ -5,6 +5,9 @@
 		},
 		{
 			"path": "..\\..\\..\\.."
+		},
+		{
+			"path": "..\\..\\xampp\\htdocs\\laravel-vue"
 		}
 	],
 	"settings": {}
