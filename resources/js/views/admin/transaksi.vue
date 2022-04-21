@@ -54,7 +54,7 @@
                                 <td>PLNPRAH50</td>
                                 <td>BLP</td>
                                 <td>DUMMY PLNPRABAYAR</td>
-                                <td>PIN Yang Anda Masukkan Salah.</td>
+                                <td>PIN Yang Anda Masukkan Salah</td>
                             </tr>
                         </tbody>
                     </table>
