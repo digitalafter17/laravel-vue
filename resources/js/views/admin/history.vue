@@ -47,6 +47,9 @@
 <script>
     import "datatables.net-dt/js/dataTables.dataTables"
     import "datatables.net-dt/css/jquery.dataTables.min.css"
+    import "datatables.net-dt/js/dataTables.dataAnggota"
+    import "datatables.net-dt/js/dataTables.dataTransaksi"
+    import "datatables.net-dt/js/dataTables.dataBroadcast"
     export default {
         name: 'History',
         mounted() {
