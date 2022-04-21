@@ -31,10 +31,6 @@
                     <router-link class="collapse-item" to="/admin/anggota">List Anggota</router-link>
                     <router-link class="collapse-item" to="/admin/transaksi">List Transaksi</router-link>
                 </div>
-                <div class="">
-                    <router-link class="">...</router-link>
-                    <router-link class="">...</router-link>
-                </div>
             </div>
         </li>
 
