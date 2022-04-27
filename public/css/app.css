@@ -17147,6 +17147,16 @@ form.user .btn-user {
   border-color:#e6e6e6;
   margin-top: 2px;
 }
+.btn-notify-hide {
+    color: #C85757;
+    border-shadow:2px;
+    margin: 0px 2px 1px 0px;
+}
+.btn-notify-hide:hover{
+  color: #500B0B;
+  background-color: #545FA2;
+  border-color: #249B34
+}
 
 .btn-google {
   color: #fff;
