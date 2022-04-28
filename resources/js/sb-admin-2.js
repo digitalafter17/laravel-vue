@@ -32,7 +32,7 @@
                         e.preventDefault();
                     }
                 }
-            );
+            );            
             // Scroll to top button appear
             $(document).on("scroll", function () {
                 var scrollDistance = $(this).scrollTop();
@@ -57,3 +57,20 @@
             });
         }
     };
+
+<script>
+    import:"dataTables.net-det/css/dataTables.dataTables";
+    import:"dataTables.net-det/js/jquery/dataTables.dataTables";
+    import:"dataseeder.net-det";
+export{
+    default(){
+        name: "sb-admin-2";
+        type: "js";
+        $document{
+            $("html, body")
+            .animate({});
+            e.preventDefaut();
+        }
+    }
+}
+</script>
