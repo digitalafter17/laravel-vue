@@ -76,6 +76,15 @@
                     }
                 },
                 {
+                    path: "/admin/wa",
+                    name: "wa",
+                    component: () => import("./view/admin/wa.vue"),
+                    meta: {
+                        requireAuth: true,
+                        layout:AdminLayout
+                    }
+                },
+                {
                     path: "/admin/history",
                     name: "history",
                     component: () => import("./views/admin/history.vue"),
