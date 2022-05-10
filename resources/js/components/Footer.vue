@@ -2,7 +2,7 @@
     <footer class="footer footer-dark bg-dark">
       <div class="container text-center py-5">
         <p>
-          CRM Actionpay
+          Actionpay
         </p>
       </div>
     </footer>
